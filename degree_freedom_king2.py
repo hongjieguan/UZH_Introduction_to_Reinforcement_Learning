@@ -26,7 +26,12 @@ def degree_freedom_king2(dfK1, p_k2, dfQ1_, s, p_k1):
            [p_k2[0] - 1, p_k2[1] + 1],  # up-right
            [p_k2[0] - 1, p_k2[1] - 1]]  # up-left
     k2r = np.array(k2r)
-
+    
+    
+    #|7|1|6|
+    #|3| |2|
+    #|5|0|4|
+    
     a_k2 = np.zeros([8, 1], dtype=int)
 
     for i in range(k2r.shape[0]):
