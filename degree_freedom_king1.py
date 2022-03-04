@@ -29,7 +29,13 @@ def degree_freedom_king1(p_k1, p_k2, p_q1, s):
            [p_k2[0] + 1, p_k2[1] - 1],  # down-left
            [p_k2[0] + 1, p_k2[1] + 1]]  # down-right
     k2r = np.array(k2r)
-
+    
+    #|4|0|5|
+    #|2| |3|
+    #|6|1|7|
+    
+    
+    
     # King 1
     a_k1 = np.zeros([8, 1], dtype=int)
 
