@@ -27,7 +27,11 @@ def degree_freedom_queen(p_k1, p_k2, p_q1, s):
            [p_k2[0] + 1, p_k2[1] - 1],  # down-left
            [p_k2[0] + 1, p_k2[1] + 1]]  # down-right
     k2r = np.array(k2r)
-
+    
+    #|4|0|5|
+    #|2| |3|
+    #|6|1|7|
+    
     # King 1 reach
     k1r = [[p_k1[0] - 1, p_k1[1]],  # up
            [p_k1[0] + 1, p_k1[1]],  # down
